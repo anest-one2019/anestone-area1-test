@@ -3,7 +3,7 @@
 body{
 	font-family:"Meiryo",sans-serif;
 	background-image : url(anestone2019_LP_haikei.jpg);
-	background-size : contain ;
+	background-size: cover;
 }
 
 .header {
@@ -153,3 +153,10 @@ h3 {
 	font-size:  8px;
 }
 
+
+@media screen and ( max-width:800px ){
+	body{
+	background-image : url(anestone2019_LP_haikei.jpg);
+	background-size: contain;
+	}
+}
